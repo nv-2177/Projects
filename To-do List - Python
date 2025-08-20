@@ -1,0 +1,10 @@
+todo = []
+while True:
+    task = input("Enter a task (or 'done' to finish): ")
+    if task.lower() == "done":
+        break
+    todo.append(task)
+
+print("Your To-Do List:")
+for t in todo:
+    print("-", t)
